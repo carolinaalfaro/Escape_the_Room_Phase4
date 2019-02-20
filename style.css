@@ -1,0 +1,73 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	margin: 0;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.column-div {
+	display: flex;
+	height: 100%;
+	width: 10%;
+}
+
+.middle-div {
+	display: block;
+	height: 100%;
+	width: 80%;
+}
+.darkgray {
+		background-color: #454D67;
+}
+
+.row {
+	display: flex;
+	height: calc(100%/7);
+	width: 100%;
+}
+	
+.purple{
+	background-color: #5F72B7;
+}
+
+.mini {
+	display: flex;
+	height: 100%;
+	width: calc(100%/6);
+}
+.blue {
+	background-color: #0F1C4D;
+}
+.black {
+	background-color: #000000;
+}
+.grey {
+		background-color: #CABEBE;
+}
+.mid-mini {
+	display: flex;
+	height: 100%;
+	width: 20%;
+}
+
+.lightblue {
+	background-color: #0A367F;
+}
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+.grow {
+	transition: all .1s ease-in-out;
+}
+.grow:hover{
+	transform: scale(1.3);
+}
